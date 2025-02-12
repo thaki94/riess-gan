@@ -51,6 +51,6 @@ Run this code in the home directory of the repository.
 ```
 conda create -n riess python=3.11
 conda activate riess
-pip install requirements.txt
+pip install -r requirements.txt
 ```
-4. Open the ```inference.ipynb``` using ```jupyter notebook``` and run the code. If you do not have ```jupyter notebook``` just run the ```inference.py```. The results will be saved in the ```results``` folder.
+4. Open the ```inference.ipynb``` using ```jupyter notebook``` and run the code. If you do not have ```jupyter notebook``` just run ```python inference.py```. The results will be saved in the ```results``` folder.
